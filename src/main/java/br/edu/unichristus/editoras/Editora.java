@@ -35,4 +35,38 @@ public class Editora {
 		
 	}
 
+	public Long getEditoraID() {
+		return editoraID;
+	}
+
+	public void setEditoraID(Long editoraID) {
+		this.editoraID = editoraID;
+	}
+
+	public String getNome() {
+		return nome;
+	}
+
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+
+	public String getCidade() {
+		return cidade;
+	}
+
+	public void setCidade(String cidade) {
+		this.cidade = cidade;
+	}
+
+	public int getAnoFundacao() {
+		return anoFundacao;
+	}
+
+	public void setAnoFundacao(int anoFundacao) {
+		this.anoFundacao = anoFundacao;
+	}
+	
+	
+
 }

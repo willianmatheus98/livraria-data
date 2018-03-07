@@ -45,6 +45,46 @@ public class Livro {
 	public Livro () {
 		
 	}
+
+	public Long getLivroID() {
+		return livroID;
+	}
+
+	public void setLivroID(Long livroID) {
+		this.livroID = livroID;
+	}
+
+	public String getTitulo() {
+		return titulo;
+	}
+
+	public void setTitulo(String titulo) {
+		this.titulo = titulo;
+	}
+
+	public LocalDate getDataPublicacao() {
+		return dataPublicacao;
+	}
+
+	public void setDataPublicacao(LocalDate dataPublicacao) {
+		this.dataPublicacao = dataPublicacao;
+	}
+
+	public int getNumeroPaginas() {
+		return numeroPaginas;
+	}
+
+	public void setNumeroPaginas(int numeroPaginas) {
+		this.numeroPaginas = numeroPaginas;
+	}
+
+	public BigDecimal getPreco() {
+		return preco;
+	}
+
+	public void setPreco(BigDecimal preco) {
+		this.preco = preco;
+	}
 	
 	
 
